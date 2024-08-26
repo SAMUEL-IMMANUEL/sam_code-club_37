@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Login Page -->
+    <section id="login" class="container-fluid">
+        <div class="row justify-content-center align-items-center vh-100">
+            <div class="col-md-6">
+                <div class="card p-4">
+                    <h2 class="text-center mb-4">Login</h2>
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rental Options -->
+    <section id="rentalOptions" class="container my-5">
+        <h2 class="text-center mb-4">Choose Your Car</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="tata.jpg" class="card-img-top" alt="Tata">
+                    <div class="card-body">
+                        <h5 class="card-title">Tata</h5>
+                        <button class="btn btn-primary">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Add similar cards for other car options -->
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
